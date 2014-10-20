@@ -1,0 +1,1 @@
+apache - > add an entry in httpd.conf as -> HostnameLookups On

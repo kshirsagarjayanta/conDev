@@ -1,0 +1,1287 @@
+2014/09/25 04:58:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\XAMPP\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\XAMPP\htdocs\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\XAMPP\htdocs\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\XAMPP\htdocs\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\XAMPP\htdocs\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\XAMPP\htdocs\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\XAMPP\htdocs\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\XAMPP\htdocs\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/cma/index.php?r=gii/model
+HTTP_REFERER=http://localhost/cma/index.php?r=gii/module
+---
+2014/09/26 05:07:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "service-context/ServiceContext".' in C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('service-context...')
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cma/index.php/service-context/ServiceContext?doo=edmi
+---
+2014/09/26 05:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "service-context/ServiceContext".' in C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('service-context...')
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cma/index.php/service-context/ServiceContext?doo=edmi
+---
+2014/09/26 05:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "service-context/ServiceContext".' in C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('service-context...')
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cma/index.php/service-context/ServiceContext?doo=edmi
+---
+2014/09/26 05:08:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "service-context/ServiceContext".' in C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('service-context...')
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cma/index.php/service-context/ServiceContext?doo=edmi
+---
+2014/09/26 05:08:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "service-context/ServiceContext".' in C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('service-context...')
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cma/index.php/service-context/ServiceContext?doo=edmi
+---
+2014/09/26 05:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "service-context/ServiceContext".' in C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('service-context...')
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cma/index.php/service-context/ServiceContext?doo=edmi
+---
+2014/09/26 05:25:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "service-context/ServiceContext".' in C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('service-context...')
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cma/index.php/service-context/ServiceContext?doo=edmi
+---
+2014/09/26 05:25:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "service-context/ServiceContext".' in C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('service-context...')
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cma/index.php/service-context/ServiceContext?doo=edmi
+---
+2014/09/27 12:34:53 [error] [php] Missing argument 2 for Contact::__construct(), called in C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php on line 387 and defined (C:\XAMPP\htdocs\cma\protected\models\Contact.php:102)
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\controllers\ContactController.php(125): CActiveDataProvider->__construct()
+#1 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(50): ContactController->actionIndex()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(134): ContactController->runAction()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#6 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(59): ContactController->filterAccessControl()
+#7 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): ContactController->runActionWithFilters()
+#10 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): ContactController->run()
+#11 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/contact/
+in C:\XAMPP\htdocs\cma\protected\models\Contact.php (102)
+in C:\XAMPP\htdocs\cma\protected\controllers\ContactController.php (125)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 12:37:30 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.end" is not defined.' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\base\CModule.php(106): CComponent->__get('end')
+#1 C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php(16): CModule->__get('end')
+#2 C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php(10): DefaultController->sendJSONResponse(Array)
+#3 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#4 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('')
+#8 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default')
+#9 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/cma/index.php/api/default
+---
+2014/09/27 12:38:03 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.end" is not defined.' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\base\CModule.php(106): CComponent->__get('end')
+#1 C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php(11): CModule->__get('end')
+#2 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#3 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('')
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default')
+#8 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cma/index.php/api/default
+---
+2014/09/27 12:40:26 [error] [php] Object of class DefaultController could not be converted to string (C:\XAMPP\htdocs\cma\protected\modules\api\ApiModule.php:23)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/default
+in C:\XAMPP\htdocs\cma\protected\modules\api\ApiModule.php (23)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 12:42:54 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\XAMPP\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('')
+#4 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default')
+#5 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/cma/index.php/api/default
+---
+2014/09/27 12:56:21 [error] [php] Declaration of ApiModule::beforeControllerAction() should be compatible with CWebModule::beforeControllerAction($controller, $action) (C:\XAMPP\htdocs\cma\protected\modules\api\ApiModule.php:4)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\base\CModule.php(283): createComponent()
+#1 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(338): CWebApplication->getModule()
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(277): CWebApplication->createController()
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/default/index?param=amit
+in C:\XAMPP\htdocs\cma\protected\modules\api\ApiModule.php (4)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 12:56:31 [error] [php] Declaration of ApiModule::beforeControllerAction() should be compatible with CWebModule::beforeControllerAction($controller, $action) (C:\XAMPP\htdocs\cma\protected\modules\api\ApiModule.php:4)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\base\CModule.php(283): createComponent()
+#1 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(338): CWebApplication->getModule()
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(277): CWebApplication->createController()
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/default/index?param=amit
+in C:\XAMPP\htdocs\cma\protected\modules\api\ApiModule.php (4)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 12:59:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\XAMPP\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#4 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default/ind...')
+#5 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/cma/index.php/api/default/index
+HTTP_REFERER=http://localhost/freelancing/
+---
+2014/09/27 13:00:13 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\XAMPP\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#4 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default/ind...')
+#5 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/cma/index.php/api/default/index
+HTTP_REFERER=http://localhost/freelancing/
+---
+2014/09/27 13:02:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\XAMPP\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#4 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default/ind...')
+#5 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/cma/index.php/api/default/index
+HTTP_REFERER=http://localhost/freelancing/
+---
+2014/09/27 13:07:53 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.end" is not defined.' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\base\CModule.php(106): CComponent->__get('end')
+#1 C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php(11): CModule->__get('end')
+#2 [internal function]: DefaultController->actionIndex('amit')
+#3 C:\XAMPP\htdocs\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#4 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#9 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default/ind...')
+#10 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/cma/index.php/api/default/index?param=amit
+---
+2014/09/27 13:08:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\XAMPP\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#4 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default/ind...')
+#5 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/cma/index.php/api/default/index
+HTTP_REFERER=http://localhost/freelancing/
+---
+2014/09/27 13:08:50 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\XAMPP\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#4 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default/ind...')
+#5 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/cma/index.php/api/default/index
+HTTP_REFERER=http://localhost/freelancing/
+---
+2014/09/27 13:15:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\XAMPP\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('')
+#4 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default')
+#5 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/cma/index.php/api/default
+---
+2014/09/27 13:36:50 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\XAMPP\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#4 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default/ind...')
+#5 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/cma/index.php/api/default/index
+HTTP_REFERER=http://localhost/freelancing/
+---
+2014/09/27 13:56:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\XAMPP\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#4 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default/ind...')
+#5 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/cma/index.php/api/default/index
+HTTP_REFERER=http://localhost/freelancing/
+---
+2014/09/27 14:22:12 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.end" is not defined.' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\base\CModule.php(106): CComponent->__get('end')
+#1 C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php(11): CModule->__get('end')
+#2 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#3 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/default/ind...')
+#8 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cma/index.php/api/default/index
+HTTP_REFERER=http://localhost/freelancing/
+---
+2014/09/27 14:50:15 [error] [php] Missing argument 2 for Contact::__construct(), called in C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php on line 387 and defined (C:\XAMPP\htdocs\cma\protected\models\Contact.php:102)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\validators\CInlineValidator.php(43): CrudCode->validateModel()
+#1 C:\XAMPP\htdocs\yii\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute()
+#2 C:\XAMPP\htdocs\yii\framework\base\CModel.php(158): CInlineValidator->validate()
+#3 C:\XAMPP\htdocs\yii\framework\gii\CCodeGenerator.php(160): CrudCode->validate()
+#4 C:\XAMPP\htdocs\yii\framework\gii\CCodeGenerator.php(64): CrudGenerator->prepare()
+#5 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(50): CrudGenerator->actionIndex()
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CrudGenerator->runAction()
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CrudGenerator->runActionWithFilters()
+#9 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CrudGenerator->run()
+#10 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/gii/crud
+in C:\XAMPP\htdocs\cma\protected\models\Contact.php (102)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 16:41:54 [error] [php] Undefined index: HTTP_CLIENT_IP (C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php:18)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/default/Addme
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php (18)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 16:43:09 [error] [php] Undefined index: HTTP_CLIENT_IP (C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php:18)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/default/Addme
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php (18)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 16:50:11 [error] [php] Undefined index: param (C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php:9)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/default/index?param=amit
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php (9)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 16:50:22 [error] [php] Undefined index: param (C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php:9)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/default/index?param=amit
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php (9)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 16:50:57 [error] [php] Undefined index: param (C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php:9)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): DefaultController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/default/index?param=amit
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\DefaultController.php (9)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 19:24:37 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.Client" is not defined.' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\base\CModule.php(106): CComponent->__get('Client')
+#1 C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php(12): CModule->__get('Client')
+#2 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(50): ApiController->actionAddme()
+#3 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('Addme')
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/api/Addme')
+#8 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cma/index.php/api/api/Addme
+HTTP_REFERER=http://localhost/freelancing/
+---
+2014/09/27 19:25:56 [error] [exception.CException] exception 'CException' with message 'Property "ApiModule.Client" is not defined.' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\base\CModule.php(106): CComponent->__get('Client')
+#1 C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php(12): CModule->__get('Client')
+#2 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(50): ApiController->actionAddme()
+#3 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('Addme')
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/api/Addme')
+#8 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cma/index.php/api/api/Addme
+HTTP_REFERER=http://localhost/freelancing/
+---
+2014/09/27 19:29:03 [error] [exception.CException] exception 'CException' with message 'Property "ApiModule.client" is not defined.' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\base\CModule.php(106): CComponent->__get('client')
+#1 C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php(12): CModule->__get('client')
+#2 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(50): ApiController->actionAddme()
+#3 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('Addme')
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/api/Addme')
+#8 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cma/index.php/api/api/Addme
+HTTP_REFERER=http://localhost/freelancing/
+---
+2014/09/27 19:42:24 [error] [php] Object of class Client could not be converted to string (C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php:13)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/api/Addme
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php (13)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 20:16:12 [error] [php] Non-static method Date_TimeZone::isValidID() should not be called statically (C:\XAMPP\php\pear\Date\TimeZone.php:4717)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\YiiBase.php(423): include()
+#1 unknown(0): autoload()
+#2 C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php(24): spl_autoload_call()
+#3 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(50): ApiController->actionAddme()
+#4 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): ApiController->runAction()
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): ApiController->run()
+#8 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/api/Addme
+in C:\XAMPP\php\pear\Date\TimeZone.php (4717)
+in C:\XAMPP\php\pear\Date\TimeZone.php (4717)
+in C:\XAMPP\php\pear\Date.php (55)
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php (24)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 20:21:13 [error] [php] Undefined variable: arr (C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php:30)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/api/Addme
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php (30)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 20:26:48 [error] [php] Undefined variable: arr (C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php:32)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/api/Addme
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php (32)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 20:43:34 [error] [php] Object of class DateTime could not be converted to string (C:\XAMPP\htdocs\yii\framework\db\schema\CDbColumnSchema.php:141)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php(796): Contact->insert()
+#1 C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php(27): Contact->save()
+#2 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(50): ApiController->actionAddme()
+#3 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): ApiController->runAction()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#6 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): ApiController->run()
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#8 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/api/Addme
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php (27)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 21:25:04 [error] [php] substr() expects at least 2 parameters, 1 given (C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php:27)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): ApiController->runAction()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): ApiController->run()
+#4 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/api/Addme
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php (27)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/27 21:41:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '542712' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `contact` (`ip_address`, `activity_timestamp`, `client_id`, `contact_id`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php (29)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/09/28 08:40:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\XAMPP\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('Addme')
+#4 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('api/api/Addme')
+#5 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/cma/index.php/api/api/Addme
+HTTP_REFERER=http://localhost/freelancing/
+---
+2014/11/02 03:51:30 [error] [php] Trying to get property of non-object (C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php:17)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(287): ApiController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(283): ApiController->run()
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/api/api/Addme
+in C:\XAMPP\htdocs\cma\protected\modules\api\controllers\ApiController.php (17)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/15 05:01:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "clientRegistration.php".' in C:\XAMPP\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(270): CController->missingAction('clientRegistrat...')
+#1 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('clientRegistrat...')
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/clientRegi...')
+#3 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cma/index.php/site/clientRegistration.php
+---
+2014/10/15 05:02:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "clientRegistration.php".' in C:\XAMPP\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(270): CController->missingAction('clientRegistrat...')
+#1 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('clientRegistrat...')
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/clientRegi...')
+#3 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cma/index.php/site/clientRegistration.php
+---
+2014/10/15 05:03:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register.php".' in C:\XAMPP\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(270): CController->missingAction('register.php')
+#1 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register.php')
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register.p...')
+#3 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cma/index.php/site/register.php
+---
+2014/10/15 05:04:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register.php".' in C:\XAMPP\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(270): CController->missingAction('register.php')
+#1 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register.php')
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register.p...')
+#3 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cma/index.php/site/register.php
+---
+2014/10/15 05:04:32 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "performAjaxValidation".' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\controllers\SiteController.php(109): CComponent->__call('performAjaxVali...', Array)
+#1 C:\XAMPP\htdocs\cma\protected\controllers\SiteController.php(109): SiteController->performAjaxValidation(Object(Client))
+#2 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#3 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\XAMPP\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#8 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cma/index.php/site/register
+---
+2014/10/15 05:04:47 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "performAjaxValidation".' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\controllers\SiteController.php(109): CComponent->__call('performAjaxVali...', Array)
+#1 C:\XAMPP\htdocs\cma\protected\controllers\SiteController.php(109): SiteController->performAjaxValidation(Object(Client))
+#2 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#3 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\XAMPP\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#8 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cma/index.php/site/register
+---
+2014/10/15 05:05:41 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_form".' in C:\XAMPP\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\views\site\clientRegistration.php(18): CController->renderPartial('_form', Array)
+#1 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(126): require('C:\XAMPP\htdocs...')
+#2 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\XAMPP\htdocs...', Array, true)
+#3 C:\XAMPP\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\XAMPP\htdocs...', Array, true)
+#4 C:\XAMPP\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('clientRegistrat...', Array, true)
+#5 C:\XAMPP\htdocs\cma\protected\controllers\SiteController.php(120): CController->render('clientRegistrat...', Array)
+#6 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#7 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#11 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#12 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/cma/index.php/site/register
+---
+2014/10/15 05:27:31 [error] [exception.CException] exception 'CException' with message 'Property "Client.Re-enter password" is not defined.' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('Re-enter passwo...')
+#1 C:\XAMPP\htdocs\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('Re-enter passwo...')
+#2 C:\XAMPP\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(Client), 'Re-enter passwo...')
+#3 C:\XAMPP\htdocs\yii\framework\web\helpers\CHtml.php(1391): CHtml::activeInputField('password', Object(Client), 'Re-enter passwo...', Array)
+#4 C:\XAMPP\htdocs\yii\framework\web\widgets\CActiveForm.php(687): CHtml::activePasswordField(Object(Client), 'Re-enter passwo...', Array)
+#5 C:\XAMPP\htdocs\cma\protected\views\site\clientRegistration.php(58): CActiveForm->passwordField(Object(Client), 'Re-enter passwo...')
+#6 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(126): require('C:\XAMPP\htdocs...')
+#7 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\XAMPP\htdocs...', Array, true)
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\XAMPP\htdocs...', Array, true)
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('clientRegistrat...', Array, true)
+#10 C:\XAMPP\htdocs\cma\protected\controllers\SiteController.php(119): CController->render('clientRegistrat...', Array)
+#11 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#12 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\XAMPP\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#16 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#17 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/cma/index.php/site/register
+---
+2014/10/15 16:04:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "clientRegistration.php".' in C:\XAMPP\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(270): CController->missingAction('clientRegistrat...')
+#1 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('clientRegistrat...')
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/clientRegi...')
+#3 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cma/index.php/site/clientRegistration.php
+---
+2014/10/15 16:05:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "clientRegistration".' in C:\XAMPP\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(270): CController->missingAction('clientRegistrat...')
+#1 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('clientRegistrat...')
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/clientRegi...')
+#3 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cma/index.php/site/clientRegistration
+---
+2014/10/15 16:05:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "clientRegistration.php".' in C:\XAMPP\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(270): CController->missingAction('clientRegistrat...')
+#1 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('clientRegistrat...')
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/clientRegi...')
+#3 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cma/index.php/site/clientRegistration.php
+---
+2014/10/15 17:53:50 [error] [exception.CException] exception 'CException' with message 'Property "CCompareValidator.0" is not defined.' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\validators\CValidator.php(189): CComponent->__set('0', 'passwordrepeat')
+#1 C:\XAMPP\htdocs\yii\framework\base\CModel.php(286): CValidator::createValidator('compare', Object(Client), 'password', Array)
+#2 C:\XAMPP\htdocs\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\XAMPP\htdocs\yii\framework\base\CModel.php(303): CModel->getValidators('client_name')
+#4 C:\XAMPP\htdocs\yii\framework\web\helpers\CHtml.php(1237): CModel->isAttributeRequired('client_name')
+#5 C:\XAMPP\htdocs\yii\framework\web\widgets\CActiveForm.php(562): CHtml::activeLabelEx(Object(Client), 'client_name', Array)
+#6 C:\XAMPP\htdocs\cma\protected\views\client\create.php(32): CActiveForm->labelEx(Object(Client), 'client_name')
+#7 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(126): require('C:\XAMPP\htdocs...')
+#8 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\XAMPP\htdocs...', Array, true)
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\XAMPP\htdocs...', Array, true)
+#10 C:\XAMPP\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#11 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(79): CController->render('create', Array)
+#12 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionCreate()
+#13 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#22 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('client/create')
+#23 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#24 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/cma/index.php/client/create
+---
+2014/10/16 04:35:32 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.onsubmit" is not defined.' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('onsubmit', 'return false;')
+#1 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ClientController), 'CActiveForm', Array)
+#2 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\XAMPP\htdocs\cma\protected\views\client\create.php(28): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(126): require('C:\XAMPP\htdocs...')
+#5 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\XAMPP\htdocs...', Array, true)
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\XAMPP\htdocs...', Array, true)
+#7 C:\XAMPP\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#8 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(79): CController->render('create', Array)
+#9 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionCreate()
+#10 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('client/create')
+#20 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/cma/index.php/client/create
+---
+2014/10/16 04:35:51 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.onSubmit" is not defined.' in C:\XAMPP\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('onSubmit', 'return false;')
+#1 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ClientController), 'CActiveForm', Array)
+#2 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\XAMPP\htdocs\cma\protected\views\client\create.php(28): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(126): require('C:\XAMPP\htdocs...')
+#5 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\XAMPP\htdocs...', Array, true)
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\XAMPP\htdocs...', Array, true)
+#7 C:\XAMPP\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#8 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(79): CController->render('create', Array)
+#9 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionCreate()
+#10 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#19 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('client/create')
+#20 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/cma/index.php/client/create
+---
+2014/10/16 04:40:56 [error] [php] include(password.php): failed to open stream: No such file or directory (C:\XAMPP\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\validators\CValidator.php(186): import()
+#1 C:\XAMPP\htdocs\yii\framework\base\CModel.php(286): createValidator()
+#2 C:\XAMPP\htdocs\yii\framework\base\CModel.php(260): Client->createValidators()
+#3 C:\XAMPP\htdocs\yii\framework\base\CModel.php(303): Client->getValidators()
+#4 C:\XAMPP\htdocs\yii\framework\web\helpers\CHtml.php(1237): Client->isAttributeRequired()
+#5 C:\XAMPP\htdocs\yii\framework\web\widgets\CActiveForm.php(562): activeLabelEx()
+#6 C:\XAMPP\htdocs\cma\protected\views\client\create.php(34): CActiveForm->labelEx()
+#7 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(126): require()
+#8 C:\XAMPP\htdocs\yii\framework\web\CBaseController.php(95): ClientController->renderInternal()
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(869): ClientController->renderFile()
+#10 C:\XAMPP\htdocs\yii\framework\web\CController.php(782): ClientController->renderPartial()
+#11 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(79): ClientController->render()
+#12 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionCreate()
+#13 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#15 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#18 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#21 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#22 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#24 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/create
+in C:\XAMPP\htdocs\cma\protected\views\client\create.php (34)
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (79)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 04:44:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Client".' in C:\XAMPP\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Client')
+#1 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Client')
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('client/Client/R...')
+#3 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cma/index.php/client/Client/Register
+HTTP_REFERER=http://localhost/cma/index.php/client/create
+---
+2014/10/16 04:44:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Client".' in C:\XAMPP\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(270): CController->missingAction('Client')
+#1 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Client')
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('client/Client/R...')
+#3 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cma/index.php/client/Client/Register
+HTTP_REFERER=http://localhost/cma/index.php/client/create
+---
+2014/10/16 04:46:24 [error] [php] Array to string conversion (C:\XAMPP\htdocs\cma\protected\views\client\create.php:88)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(869): ClientController->renderFile()
+#1 C:\XAMPP\htdocs\yii\framework\web\CController.php(782): ClientController->renderPartial()
+#2 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(79): ClientController->render()
+#3 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionCreate()
+#4 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#6 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#9 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#12 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#13 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/create
+in C:\XAMPP\htdocs\cma\protected\views\client\create.php (88)
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (79)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 05:08:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\XAMPP\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('client/view')
+#10 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/cma/index.php/client/view
+---
+2014/10/16 05:27:12 [error] [php] Creating default object from empty value (C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php:179)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#8 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (179)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 05:29:48 [error] [php] Creating default object from empty value (C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php:179)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#8 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (179)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 05:35:39 [error] [php] Creating default object from empty value (C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php:179)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#8 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (179)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 05:39:31 [error] [php] Creating default object from empty value (C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php:179)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#8 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (179)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 05:45:00 [error] [php] Creating default object from empty value (C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php:179)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#8 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (179)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 05:51:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\XAMPP\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#9 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('client/Register')
+#10 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/cma/index.php/client/Register
+HTTP_REFERER=http://localhost/cma/index.php/client/create
+---
+2014/10/16 05:55:24 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (180)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 05:55:24 [error] [php] Missing argument 1 for CActiveRecord::getAttribute(), called in C:\XAMPP\htdocs\yii\framework\base\CComponent.php on line 111 and defined (C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php:680)
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(181): Client->__get()
+#1 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionRegister()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#7 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#10 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#11 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (181)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 05:59:26 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (180)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 05:59:26 [error] [php] Missing argument 1 for CActiveRecord::getAttribute(), called in C:\XAMPP\htdocs\yii\framework\base\CComponent.php on line 111 and defined (C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php:680)
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(181): Client->__get()
+#1 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionRegister()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#7 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#10 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#11 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (181)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 05:59:32 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (180)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 05:59:32 [error] [php] Missing argument 1 for CActiveRecord::getAttribute(), called in C:\XAMPP\htdocs\yii\framework\base\CComponent.php on line 111 and defined (C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php:680)
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(181): Client->__get()
+#1 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionRegister()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#7 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#10 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#11 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (181)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:05:26 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (180)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:05:26 [error] [php] Missing argument 1 for CActiveRecord::getAttribute(), called in C:\XAMPP\htdocs\yii\framework\base\CComponent.php on line 111 and defined (C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php:680)
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(181): Client->__get()
+#1 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionRegister()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#7 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#10 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#11 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (181)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:08:50 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (181)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:08:50 [error] [php] Missing argument 1 for CActiveRecord::getAttribute(), called in C:\XAMPP\htdocs\yii\framework\base\CComponent.php on line 111 and defined (C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php:680)
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(182): Client->__get()
+#1 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionRegister()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#7 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#10 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#11 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (182)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:09:06 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (181)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:09:06 [error] [php] Missing argument 1 for CActiveRecord::getAttribute(), called in C:\XAMPP\htdocs\yii\framework\base\CComponent.php on line 111 and defined (C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php:680)
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(182): Client->__get()
+#1 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionRegister()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#7 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#10 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#11 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (182)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:14:04 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (180)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:14:04 [error] [php] Missing argument 1 for CActiveRecord::getAttribute(), called in C:\XAMPP\htdocs\yii\framework\base\CComponent.php on line 111 and defined (C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php:680)
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(181): Client->__get()
+#1 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionRegister()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#7 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#10 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#11 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (181)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:15:04 [error] [php] Undefined index: data (C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php:180)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#8 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (180)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:15:26 [error] [php] Undefined index: data (C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php:180)
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#1 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#7 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#8 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (180)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:17:13 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (180)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:17:13 [error] [php] Missing argument 1 for CActiveRecord::getAttribute(), called in C:\XAMPP\htdocs\yii\framework\base\CComponent.php on line 111 and defined (C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php:680)
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(181): Client->__get()
+#1 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionRegister()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#7 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#10 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#11 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (181)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:22:14 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (180)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 06:22:14 [error] [php] Missing argument 1 for CActiveRecord::getAttribute(), called in C:\XAMPP\htdocs\yii\framework\base\CComponent.php on line 111 and defined (C:\XAMPP\htdocs\yii\framework\db\ar\CActiveRecord.php:680)
+Stack trace:
+#0 C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php(181): Client->__get()
+#1 C:\XAMPP\htdocs\yii\framework\web\actions\CInlineAction.php(49): ClientController->actionRegister()
+#2 C:\XAMPP\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(133): ClientController->runAction()
+#4 C:\XAMPP\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\XAMPP\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\XAMPP\htdocs\yii\framework\web\filters\CInlineFilter.php(58): ClientController->filterAccessControl()
+#7 C:\XAMPP\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\XAMPP\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\XAMPP\htdocs\yii\framework\web\CController.php(265): ClientController->runActionWithFilters()
+#10 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(282): ClientController->run()
+#11 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\XAMPP\htdocs\cma\index.php(13): CWebApplication->run()
+REQUEST_URI=/cma/index.php/client/Register
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (181)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 20:34:52 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/16 20:35:19 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:02:02 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:04:50 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (182)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:06:28 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (182)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:08:31 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:10:16 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:13:17 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:14:28 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:16:47 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:23:52 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:24:21 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:30:09 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:30:43 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:31:06 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:31:34 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/17 05:33:52 [warning] [application] Failed to set unsafe attribute "client_id" of "Client".
+in C:\XAMPP\htdocs\cma\protected\controllers\ClientController.php (178)
+in C:\XAMPP\htdocs\cma\index.php (13)
+2014/10/19 20:20:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/default/index".' in C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/i...')
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cma/index.php/admin/default/index
+HTTP_REFERER=http://localhost/cma/index.php/admin/default/index
+---
+2014/10/19 20:20:12 [error] [exception.CException] exception 'CException' with message 'Alias "dashboard.DashboardModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\XAMPP\htdocs\yii\framework\YiiBase.php:316
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('dashboard.Dashb...', true)
+#1 C:\XAMPP\htdocs\yii\framework\base\CModule.php(282): YiiBase::createComponent('dashboard.Dashb...', 'dashboard', NULL, Array)
+#2 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(337): CModule->getModule('dashboard')
+#3 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('dashboard/defau...')
+#4 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/defau...')
+#5 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/cma/index.php/dashboard/default/index
+---
+2014/10/19 20:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dashboard/default/index".' in C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/defau...')
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cma/index.php/dashboard/default/index
+---
+2014/10/20 04:26:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/http://localhost/cma/index.php/properties/index".' in C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/http://lo...')
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cma/index.php/admin/http://localhost/cma/index.php/properties/index
+HTTP_REFERER=http://localhost/cma/index.php/admin/default/index
+---
+2014/10/20 04:28:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/http://localhost/cma/index.php/properties/index".' in C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\XAMPP\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/http://lo...')
+#1 C:\XAMPP\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\XAMPP\htdocs\cma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cma/index.php/admin/http://localhost/cma/index.php/properties/index
+HTTP_REFERER=http://localhost/cma/index.php/admin/default/index
+---
