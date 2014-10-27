@@ -9,9 +9,6 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'List LogEntries', 'url'=>array('index')),
-	array('label'=>'Create LogEntries', 'url'=>array('create')),
-	array('label'=>'Update LogEntries', 'url'=>array('update', 'id'=>$model->id)),
-	array('label'=>'Delete LogEntries', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Manage LogEntries', 'url'=>array('admin')),
 );
 ?>

@@ -9,7 +9,6 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'List LogEntries', 'url'=>array('index')),
-	array('label'=>'Create LogEntries', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -53,6 +52,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'contact_id',
 		array(
 			'class'=>'CButtonColumn',
+			'template'=>'{view}'
 		),
 	),
 )); ?>
