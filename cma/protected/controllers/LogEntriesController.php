@@ -31,7 +31,7 @@ class LogEntriesController extends Controller
 				'actions'=>array(),
 				'users'=>array('*'),
 			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+			array('deny', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update', 'index','view'),
 				'users'=>array('@'),
 			),
