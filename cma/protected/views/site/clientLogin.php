@@ -25,9 +25,9 @@ $this->breadcrumbs=array(
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'login_id'); ?>
-		<?php echo $form->textField($model,'login_id'); ?>
-		<?php echo $form->error($model,'login_id'); ?>
+		<?php echo $form->labelEx($model,'username'); ?>
+		<?php echo $form->textField($model,'username'); ?>
+		<?php echo $form->error($model,'username'); ?>
 	</div>
 
 	<div class="row">

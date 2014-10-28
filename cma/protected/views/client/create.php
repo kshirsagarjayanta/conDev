@@ -39,8 +39,7 @@
 	<div class="row">
 		<div class="tabular_row">
 			<?php echo $form->labelEx($model,'website_url'); ?>
-			<?php echo $form->textField($model,'website_url'); ?>
-			<span>(e.g. - cma.com)</span>
+			<?php echo $form->textField($model,'website_url', array("placeholder" => "(e.g. - cma.com)")); ?>
 		</div>
 		<?php echo $form->error($model,'website_url'); ?>
 	</div>
@@ -72,7 +71,7 @@
 		</div>
 		<?php echo $form->error($model,'contact_number'); ?>
 	</div>
-
+	<br /><br /><br /><br />
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save', array('id'=>'clientSave')); ?>
 	</div>

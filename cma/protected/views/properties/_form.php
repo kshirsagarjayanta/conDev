@@ -34,9 +34,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'client_id'); ?>
-		<?php echo $form->textField($model,'client_id',array('size'=>10,'maxlength'=>10)); ?>
-		<?php echo $form->error($model,'client_id'); ?>
+		<?php //echo $form->labelEx($model,'client_id'); ?>
+		<?php echo $form->hiddenField($model,'client_id',array('size'=>10,'maxlength'=>10, 'value' => Yii::app()->user->getState('client_id'))); ?>
+		<?php //echo $form->error($model,'client_id');?>
 	</div>
 
 	<div class="row buttons">

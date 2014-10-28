@@ -44,7 +44,7 @@ div.form select
 {
 	margin: 0.2em 0 0.5em 0;
 	float:left;
-	width:45%;
+	width:300px;
 }
 
 div.form input[type="button"], input[type="submit"]
@@ -65,18 +65,19 @@ div.form label
 	font-size: 0.9em;
 	display: block;
 	float:left;
-	width:45%;
+	width:250px;
 	line-height:30px;
 }
 
 div.form .row
 {
 	margin: 5px 0;
+	height:30px;
 }
 
 div.tabular_row
 {
-	width:100%;
+	width:65%;
 	height:30px;
 	padding:5px;
 	float:left;
@@ -142,6 +143,8 @@ div.form .errorMessage
 {
 	color: red;
 	font-size: 0.9em;
+	float:left;
+	line-height: 30px;
 }
 
 div.form .errorSummary p

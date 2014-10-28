@@ -72,9 +72,9 @@ class Properties extends CActiveRecord
 	{
 		return array(
 			'prop_id' => 'Prop',
-			'prop_name' => 'Prop Name',
-			'prop_type' => 'Prop Type',
-			'prop_category' => 'Prop Category',
+			'prop_name' => 'Property Name',
+			'prop_type' => 'Property Type',
+			'prop_category' => 'Property Category',
 			'client_id' => 'Client',
 		);
 	}

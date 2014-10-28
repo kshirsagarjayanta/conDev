@@ -2,6 +2,7 @@
 
 class SiteController extends Controller
 {
+	public $layout='//layouts/column1';
 	/**
 	 * Declares class-based actions.
 	 */
@@ -29,6 +30,9 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
+		if(Yii::app()->user !== null){
+			$this->redirect(Yii::app()->request->baseUrl."/index.php/dashboard/index");
+		}
 		$this->render('index');
 	}
 
@@ -77,7 +81,7 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
-		$model=new LoginForm;
+		$model=new ClientLoginForm;
 
 		// if it is ajax validation request
 		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
@@ -87,15 +91,17 @@ class SiteController extends Controller
 		}
 
 		// collect user input data
-		if(isset($_POST['LoginForm']))
+		if(isset($_POST['ClientLoginForm']))
 		{
-			$model->attributes=$_POST['LoginForm'];
+			$model->attributes=$_POST['ClientLoginForm'];
+			//print_r($model->attributes);
+			//exit();
 			// validate user input and redirect to the previous page if valid
 			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
+				$this->redirect(Yii::app()->request->baseUrl."/index.php/dashboard/index");//Yii::app()->user->returnUrl
 		}
 		// display the login form
-		$this->render('login',array('model'=>$model));
+		$this->render('clientLogin',array('model'=>$model));
 	}
 	
 // 	/**

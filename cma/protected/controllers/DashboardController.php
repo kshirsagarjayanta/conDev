@@ -2,7 +2,7 @@
 
 class DashboardController extends Controller
 {
-	public $layout='//layouts/column1';
+	public $layout='//layouts/column3';
 	
 	public function actionIndex()
 	{

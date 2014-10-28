@@ -21,6 +21,9 @@
 class Client extends CActiveRecord
 {
 	public $passwordrepeat;
+	public $rememberMe;
+	
+	//public $returnUrl = '/dashboard/index';
 	
 	/**
 	 * Returns the static model of the specified AR class.
@@ -56,6 +59,9 @@ class Client extends CActiveRecord
 			array('login_id, password, passwordrepeat', 'length', 'max'=>128),
 			array('login_id', 'unique', 'message'=>'Username already taken.'),
 			array('passwordrepeat', 'compare', 'compareAttribute'=>'password', 'message'=>'Passwords do not match.'),
+			array('rememberMe', 'boolean'),
+			// password needs to be authenticated
+			array('password', 'authenticateClient'),
 			//array('passwordrepeat', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -142,5 +148,22 @@ class Client extends CActiveRecord
 	
 	public function generateUniqueId(){
 		return substr((time()*rand()),0,10);
+	}
+	
+	/**
+	 * AUthenticate Clients login id and password
+	 * @param client $username
+	 * @param client $password
+	 */
+	public function authenticateClient($username, $password){
+		$criteria=new CDbCriteria();
+		$request = array(':login_id' => $username);
+		$client = Client::model()->find("login_id=:login_id", $request);
+		if($client != null){
+			return $client;
+		}
+		else{
+			return null;
+		}
 	}
 }

@@ -17,17 +17,22 @@ class ClientIdentity extends CUserIdentity
 	 */
 	public function authenticate()
 	{
-		$users=array(
-			// username => password
-			'demo'=>'demo',
-			'admin'=>'admin',
-		);
-		if(!isset($users[$this->username]))
-			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		else if($users[$this->username]!==$this->password)
-			$this->errorCode=self::ERROR_PASSWORD_INVALID;
-		else
+// 		$users=array(
+// 			// username => password
+// 			'demo'=>'demo',
+// 			'admin'=>'admin',
+// 		);
+		$client = Client::model()->authenticateClient($this->username, $this->password);
+		if($client === null){
+			$this->errorCode = self::ERROR_USERNAME_INVALID;
+		}
+		else if($this->password !== $client->password){
+			$this->errorCode = self::ERROR_PASSWORD_INVALID;
+		}
+		else{
+			Yii::app()->user->setState('client_id', $client->client_id);// set client_id in session
 			$this->errorCode=self::ERROR_NONE;
+		}
 		return !$this->errorCode;
 	}
 }

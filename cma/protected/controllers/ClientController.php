@@ -6,7 +6,7 @@ class ClientController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column2';
+	public $layout='//layouts/column1';
 
 	/**
 	 * @return array action filters
@@ -177,7 +177,8 @@ class ClientController extends Controller
 		if(isset($_POST['Client'])){
 			$model->attributes=$_POST['Client'];
 			if($model->save()){
-				$response = array('status' => 'SUCCESS', 'msg' => 'Welcome! You are registered.', 'redirection' => 'http://localhost/cma/index.php/client/create');
+				$response = array('status' => 'SUCCESS', 'msg' => 'Welcome! You are registered. You can login now.', 
+						'redirection' => 'http://localhost/conDev/cma/index.php/site/login');
 				echo CJSON::encode($response);
 			}
 			else{
@@ -185,5 +186,9 @@ class ClientController extends Controller
 				echo CJSON::encode($response);
 			}
 		}
+	}
+	
+	public function actionLogin(){
+		
 	}
 }
