@@ -13,6 +13,7 @@ $this->menu=array(
 	array('label'=>'Create Lists', 'url'=>array('create')),
 	array('label'=>'View Lists', 'url'=>array('view', 'id'=>$model->list_id)),
 	array('label'=>'Manage Lists', 'url'=>array('admin')),
+	array('label'=>'Create Criteria', 'url'=>array('createCriteria', 'id'=>$model->list_id)),
 );
 ?>
 

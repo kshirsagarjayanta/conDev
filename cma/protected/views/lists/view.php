@@ -13,6 +13,7 @@ $this->menu=array(
 	array('label'=>'Update Lists', 'url'=>array('update', 'id'=>$model->list_id)),
 	array('label'=>'Delete Lists', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->list_id),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Manage Lists', 'url'=>array('admin')),
+	array('label'=>'Create Criteria', 'url'=>array('createCriteria', 'id'=>$model->list_id)),
 );
 ?>
 

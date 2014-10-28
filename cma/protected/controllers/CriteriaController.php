@@ -6,7 +6,7 @@ class CriteriaController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column3';
+	public $layout='//layouts/column2';
 
 	/**
 	 * @return array action filters
@@ -28,11 +28,11 @@ class CriteriaController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array(),
+				'actions'=>array('index','view'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update', 'index','view'),
+				'actions'=>array('create','update','insert'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -67,6 +67,25 @@ class CriteriaController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
+		if(isset($_POST['Criteria']))
+		{
+			$model->attributes=$_POST['Criteria'];
+			if($model->save())
+				$this->redirect(array('view','id'=>$model->criteria_id));
+		}
+
+		$this->render('create',array(
+			'model'=>$model,
+		));
+	}
+	
+	public function actionInsert($id)
+	{
+		$model=new Criteria;
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+		$model->list_id=$id;
 		if(isset($_POST['Criteria']))
 		{
 			$model->attributes=$_POST['Criteria'];
